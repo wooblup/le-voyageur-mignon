@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  - var data = indexData
+  div.wrapper
+    header
+      a(href="#")
+        h1= title
+    main
+      each val in data
+        div.destination
+          a(href="/destinations/" + val.city)
+            img.thumbnail(src="/images/" + val.thumbnail alt="Photo of " + val.city)
+            h2= val.city
+  include footer.pug

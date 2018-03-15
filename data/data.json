@@ -1,0 +1,57 @@
+{
+  "destinations": [{
+    "city": "Barcelona",
+    "country": "Spain",
+    "continent": "Europe",
+    "thumbnail": "barcelona-tn.png",
+    "body-text": "Bienvenido a Barcelona"
+  }, {
+    "city": "Paris",
+    "country": "France",
+    "continent": "Europe",
+    "thumbnail": "paris-tn.png",
+    "body-text": "Bienvenue à Paris"
+  }, {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "continent": "Europe",
+    "thumbnail": "prague-tn.png",
+    "body-text": "Vítejte v Praze"
+  }, {
+    "city": "Santorini",
+    "country": "Greece",
+    "continent": "Europe",
+    "thumbnail": "santorini-tn.png",
+    "body-text": "καλωσορίστε στη Σαντορίνη"
+  }, {
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "continent": "Asia",
+    "thumbnail": "kuala-lumpur-tn.png",
+    "body-text": "Selamat datang ke Kuala Lumpur"
+  }, {
+    "city": "Shanghai",
+    "country": "China",
+    "continent": "Asia",
+    "thumbnail": "shanghai-tn.png",
+    "body-text": "歡迎來到上海"
+  }, {
+    "city": "Singapore",
+    "country": "Singapore",
+    "continent": "Asia",
+    "thumbnail": "singapore-tn.png",
+    "body-text": "Selamat datang ke Singapura"
+  }, {
+    "city": "Taipei",
+    "country": "Taiwan",
+    "continent": "Asia",
+    "thumbnail": "taipei-tn.png",
+    "body-text": "歡迎來到台北"
+  }, {
+    "city": "Tokyo",
+    "country": "Japan",
+    "continent": "Asia",
+    "thumbnail": "tokyo-tn.png",
+    "body-text": "東京へようこそ"
+  }]
+}
