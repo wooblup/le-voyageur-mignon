@@ -71,6 +71,18 @@ main {
   margin: 0 6px;
 }
 
+.destination {
+  position: relative;
+  bottom: 0;
+  box-shadow: 1px 6px 30px rgba(0,0,0,0.2);
+  transition: .3s all ease-in-out;
+}
+
+.destination:hover {
+  bottom: 10px;
+  box-shadow: 1px 6px 20px rgba(0, 0, 0, 0.4);
+}
+
 footer#footer {
   margin-top: 100px;
   background: #000;
