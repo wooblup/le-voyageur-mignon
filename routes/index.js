@@ -23,7 +23,7 @@ router.get('/', function(req, res, next) {
   });
 
   res.render('index', {
-    title: 'Le Voyageur Mignonne',
+    title: 'Le Voyageur Mignon',
     indexData: indexData
   });
 });

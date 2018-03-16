@@ -31,7 +31,7 @@ router.get('/destinations/:destination', function(req, res, next) {
   });
 
   res.render('destination', {
-    title: 'Le Voyageur Mignonne',
+    title: 'Le Voyageur Mignon',
     destinationData: destinationData
   });
 

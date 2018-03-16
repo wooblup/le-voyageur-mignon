@@ -21,10 +21,18 @@ h3 {
   font-size: 1.5rem;
 }
 
+aside#subscribe-section h3 {
+  margin: 0 0 1rem;
+}
+
 a {
   color: #00B7FF;
   text-decoration: none;
   outline: none;
+}
+
+a#close {
+  display: none;
 }
 
 a:hover {
@@ -85,6 +93,10 @@ aside#subscribe {
   text-align: center;
 }
 
+aside#subscribe-section {
+  margin: 0 auto;
+}
+
 input#email {
   padding: 10px 15px;
   font-size: 0.8rem;
@@ -101,10 +113,6 @@ input[type=submit] {
   width: 179px;
   display: block;
   margin: auto;
-}
-
-a#close {
-  display: none;
 }
 
 @keyframes slide-in {

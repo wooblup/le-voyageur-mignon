@@ -11,9 +11,12 @@ block content
         img(src="/images/" + data.photo alt="Photo of " + data.city)
         h2= data.city
         p= data.text
-      aside
+      aside#subscribe-section
         h3 Stay Connected
         form#subscribe-form(action="" method="get")
           input#email(type="text" name="email" placeholder="Your Email Address")
           input(type="submit")
   include includes/footer.pug
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+  script(src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js")
+  script(src="./../javascripts/firebase.js")
