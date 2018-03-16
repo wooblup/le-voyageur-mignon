@@ -1,10 +1,19 @@
 extends layout
 
 block content
+  - data = destinationData[0]
   div.wrapper
     header
-      a(href="#")
+      a(href="/")
         h1= title
-    main
-      p= city
+    main#destination-page
+      section
+        img(src="/images/" + data.photo alt="Photo of " + data.city)
+        h2= data.city
+        p= data.text
+      aside
+        h3 Stay Connected
+        form(action="" method="get")
+          input#email(type="text" name="email" placeholder="Your Email Address")
+          input(type="submit")
   include footer.pug

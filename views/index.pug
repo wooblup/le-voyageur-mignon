@@ -4,7 +4,7 @@ block content
   - var data = indexData
   div.wrapper
     header
-      a(href="#")
+      a(href="/")
         h1= title
     main
       each val in data
@@ -12,4 +12,11 @@ block content
           a(href="/destinations/" + val.city)
             img.thumbnail(src="/images/" + val.thumbnail alt="Photo of " + val.city)
             h2= val.city
+      aside#subscribe
+        h3 Stay Connected
+        form(action="" method="get")
+          input#email(type="text" name="email" placeholder="Your Email Address")
+          input(type="submit")
+        a(href="#")#close x
   include footer.pug
+  script(src="./javascripts/main.js")

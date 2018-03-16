@@ -3,55 +3,64 @@
     "city": "Barcelona",
     "country": "Spain",
     "continent": "Europe",
+    "photo": "barcelona.png",
     "thumbnail": "barcelona-tn.png",
-    "body-text": "Bienvenido a Barcelona"
+    "bodyText": "Bienvenido a Barcelona"
   }, {
     "city": "Paris",
     "country": "France",
     "continent": "Europe",
+    "photo": "paris.png",
     "thumbnail": "paris-tn.png",
-    "body-text": "Bienvenue à Paris"
+    "bodyText": "Bienvenue à Paris"
   }, {
     "city": "Prague",
     "country": "Czech Republic",
     "continent": "Europe",
+    "photo": "prague.png",
     "thumbnail": "prague-tn.png",
-    "body-text": "Vítejte v Praze"
+    "bodyText": "Vítejte v Praze"
   }, {
     "city": "Santorini",
     "country": "Greece",
     "continent": "Europe",
+    "photo": "santorini.png",
     "thumbnail": "santorini-tn.png",
-    "body-text": "καλωσορίστε στη Σαντορίνη"
+    "bodyText": "καλωσορίστε στη Σαντορίνη"
   }, {
     "city": "Kuala Lumpur",
     "country": "Malaysia",
     "continent": "Asia",
+    "photo": "kuala-lumpur.png",
     "thumbnail": "kuala-lumpur-tn.png",
-    "body-text": "Selamat datang ke Kuala Lumpur"
+    "bodyText": "Selamat datang ke Kuala Lumpur"
   }, {
     "city": "Shanghai",
     "country": "China",
     "continent": "Asia",
+    "photo": "shanghai.png",
     "thumbnail": "shanghai-tn.png",
-    "body-text": "歡迎來到上海"
+    "bodyText": "歡迎來到上海"
   }, {
     "city": "Singapore",
     "country": "Singapore",
     "continent": "Asia",
+    "photo": "singapore.png",
     "thumbnail": "singapore-tn.png",
-    "body-text": "Selamat datang ke Singapura"
+    "bodyText": "Selamat datang ke Singapura"
   }, {
     "city": "Taipei",
     "country": "Taiwan",
     "continent": "Asia",
+    "photo": "taipei.png",
     "thumbnail": "taipei-tn.png",
-    "body-text": "歡迎來到台北"
+    "bodyText": "歡迎來到台北"
   }, {
     "city": "Tokyo",
     "country": "Japan",
     "continent": "Asia",
+    "photo": "tokyo.png",
     "thumbnail": "tokyo-tn.png",
-    "body-text": "東京へようこそ"
+    "bodyText": "東京へようこそ"
   }]
 }
