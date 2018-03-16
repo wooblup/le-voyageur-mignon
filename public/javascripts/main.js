@@ -1,3 +1,4 @@
+/* Click to Close Subscribe Box */
 var close = document.getElementById('close');
 var subscribeBox = document.getElementById('subscribe');
 

@@ -14,9 +14,10 @@ block content
             h2= val.city
       aside#subscribe
         h3 Stay Connected
-        form(action="" method="get")
+        form#subscribe-form(action="" method="get")
           input#email(type="text" name="email" placeholder="Your Email Address")
           input(type="submit")
         a(href="#")#close x
-  include footer.pug
-  script(src="./javascripts/main.js")
+  include includes/footer.pug
+  include includes/scripts.pug
+  
